@@ -1,39 +1,75 @@
 body {
     margin: 0;
     padding: 0;
-    font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
-
-#logotipo{
-
-    max-width: 160px;
-    float: left;
-    padding-top: 10px;
-}
-
-#logotipo img{
-    width: 100px;
-    height: 20px;
-
-}
-.barra {
-padding-top: 10px;
-}
-.menu link{
-    display: inline;
-    padding-left: 100px;
-    position: center;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 header {
-    background: url(../img/nathan-anderson-316188-unsplash.jpg);
+    background: url("../img/nathan-anderson-316188-unsplash.jpg");
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
     background-size:cover;
     background-color: #669997;
     height: 100vh;
+
+}
+
+.nav {
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
     width: 100%;
 }
+
+.img{
+    max-width: 160px;
+    padding-top: 10px;
+}
+.txt_img{
+    margin-top: 0;
+    text-align: center;
+
+}
+.link_sup{
+    color: white;
+}
+
+
+.barra{
+    display: flex;
+}
+
+.barra a{
+    padding-top: 20px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: large;
+    font-style: italic;
+    text-decoration: none;
+
+}
+.img_rss{
+    max-height: 30px;
+    max-width: 30px;
+}
+.rrss{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.texto_viaje{
+    position:absolute;
+    top:20%;
+    left:30%
+
+
+}
+
 
 
