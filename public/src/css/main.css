@@ -84,5 +84,25 @@ justify-content: center;
 }
 
 
+.destinos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+}
+.img_viajes{
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+}
+.container {
+    position: relative;
+    width: 50%;
+}
 
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
 
